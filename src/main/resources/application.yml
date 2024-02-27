@@ -1,13 +1,10 @@
-server:
-  port: 8080
 spring:
   datasource:
-    password: root
-    url: jdbc:mysql://mysqldb:3306/eleventhproject
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysqldb:3306/employeeportal
     username: root
+    password: root
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
- 
-          
