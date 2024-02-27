@@ -2,22 +2,12 @@ server:
   port: 8080
 spring:
   datasource:
-    password: Lukky@2015
-    url: jdbc:mysql://localhost:3306/eleventhproject
+    password: root
+    url: jdbc:mysql://mysqldb:3306/eleventhproject
     username: root
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-  mail:
-    host:  smtp.gmail.com
-    port:  587
-    username:  a.ramakanth.recruiter@gmail.com
-    password:  esoi mvto spjk uzqd
-    properties:
-      mail:
-        smtp:
-          starttls:
-            enable:  true
-          auth:  true
+ 
           
