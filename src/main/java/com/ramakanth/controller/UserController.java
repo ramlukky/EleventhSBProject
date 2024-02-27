@@ -50,7 +50,7 @@ public class UserController {
 	userLoginEntity.setUserLoginPassword(userEntity.getUserPassword());	
 	userLoginService.saveUserLogin(userLoginEntity);
 		System.out.println("recored saved: ");
-		userService.sendEmail(userEntity);
+	
 		UserLoginEntity userLogin=new UserLoginEntity();
 		model.addAttribute("userLogin", userLogin);
 		model.addAttribute("msg", "You are successfully registered, please login");
